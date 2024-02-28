@@ -1,0 +1,100 @@
+.staking {
+    padding: 1rem 0;
+    max-width: 450px;
+    margin: auto;
+}
+.tab-css {
+  background-color: transparent;
+  width: max-content !important;
+  margin: auto !important;
+  border-radius: 50pc;
+  border: 2px solid #04F3F3;
+  width: 30% !important;
+  /* opacity: ; */
+}
+.mak_flxx_bttn.Mui-selected {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  /* font-family: 'IBM Plex Mono', monospace; */
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  text-transform: uppercase;
+  min-width: 64px;
+  margin: 1.5px;
+  border-radius: 10000px;
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
+  color: rgba(0, 0, 0, 0.87) !important;
+  background-color: #04F3F3;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px; */
+  border-radius: 50pc !important;
+}
+
+.mak_flxx_bttn {
+  width: 50% !important;
+}
+  
+.staking__heading {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: white !important;
+    font-family: 'Exo 2', sans-serif;
+    /* font-family: 'Exo 2', sans-serif;!important; */
+}
+.staking_apy, .staking_tvl {
+    display: flex;
+    /* width: -webkit-max-content; */
+    /* width: max-content; */
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+.staking__tvl {
+    flex-direction: column;
+}
+
+
+.staking__tvl_text{
+    color: white !important;
+    font-family: 'Exo 2', sans-serif !important;
+}
+@media only screen and (max-width: 1024px) {
+  .tab-css {
+    background-color: transparent;
+    width: max-content !important;
+    margin: auto !important;
+    border-radius: 35pc;
+    border: 2px solid #04F3F3;
+    width: 50% !important;
+   
+  }
+  .mak_flxx_bttn.Mui-selected {
+    align-items: center;
+    justify-content: center;
+    border: 4px !important;
+    margin: 0px !important ;
+    cursor: pointer;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 200;
+    font-size: 0.7rem;
+    line-height: 1.75;
+    text-transform: uppercase;
+    min-width: 100px;
+    padding: 8px 15px;
+    color: rgba(0, 0, 0, 0.87) !important;
+    background-color: #04F3F3;
+    border-radius: 50pc !important;
+  }
+  .mak_flxx_bttn {
+    width: 25% !important;
+  }  
+
+}

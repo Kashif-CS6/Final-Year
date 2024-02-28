@@ -1,0 +1,118 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 4.9rem;
+    width: 100% ;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 20vw;
+    height: 30rem;
+    max-width: 640px;
+    background-color: #161838;
+    color: #fff;
+    border-radius: 1rem;
+    >h1{
+        text-align: center;
+        font-size: 0.7rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid cyan;
+        padding-bottom: 0.6rem;
+    }
+    >p{
+        >span{
+            margin-top: 0.3rem;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+            margin-bottom: -1rem;
+        }
+        border: 1px solid cyan;
+        border-radius: 0.2rem;
+        color:white;
+        height: 11rem;
+        margin-bottom: 1rem;
+    }
+    >input{
+        border: 1px solid cyan;
+        padding: 0.2rem;
+        text-align: start;
+        border-radius: 0.2rem;
+        margin-bottom: 1rem;
+        color:white;
+        background-color: #161838;
+        font-size: 0.6rem;
+        width: 14.7vw;
+    }
+    >div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+
+    }
+
+}
+.btn-donate{
+    width: 4rem;
+    height: 1.7rem;
+    background-color:#161838;
+    color:white;
+    font-weight: 200;
+    border-radius: 1rem;
+    border:1px solid white;
+    font-size: 0.9rem;
+}
+.btn-donate:hover{
+    background-color: #04f3f3;
+    border: 1px solid white;
+    color:black;
+    font-weight: 500;
+}
+
+
+.description-container {
+    max-height: 143px; /* Set a maximum height for the container */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid cyan; /* Add a border for better visibility */
+    padding: 10px; /* Add padding to the container */
+    font-size: 0.8rem;
+  }
+.description-content {
+    margin: 0; /* Remove default margin for the paragraph */
+}
+@media only screen and (max-width: 1024px){
+    .popup{
+        position: fixed;
+        top: 0;
+        left: 1rem;
+        width: 100% ;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 15rem;
+    height: 30rem;
+    max-width: 640px;
+    background-color: #161838;
+    color: #fff;
+    border-radius: 1rem;
+    }
+    input{
+        width: 15rem;
+    }
+}

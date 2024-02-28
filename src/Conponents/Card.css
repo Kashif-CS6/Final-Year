@@ -1,0 +1,93 @@
+.cardcontainer{
+    background-color: black;
+    padding-right: 4px;
+        padding-bottom: 16px;
+        padding-left:4px;
+        padding-top: 16px;
+    
+    }
+    
+    .titleforcam{
+        padding-bottom: 2rem;
+        padding-top:1.5rem;
+        padding-left: 1.5rem;
+        font-size: 24px;
+    font-weight: 500;
+    color: white;
+    }
+    
+    .allcard {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 5rem;
+    }
+    
+    
+    
+    .card{
+      display: flex;
+      flex: 0 0 calc(33.33% - 10rem); /* Adjust the width as needed and consider margin */
+      margin: 1rem;
+      background-color: #36454f;
+      color:white;
+      cursor: pointer;  
+      border: 1px;
+      transition: box-shadow 0.3s ease-in-out; /* Add a smooth transition effect */
+      border: 1px solid #04F3F3; ;
+      border-radius: 1rem;
+      overflow: hidden;
+      min-width: 20rem !important
+    
+    } 
+    .cardin{
+        padding: .8rem .8rem;
+    }
+    .card:hover{
+        box-shadow: 0 4px 8px #04F3F3;
+    }
+    
+    .daysleft{
+        color:white;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 3px 3px;
+        font-weight: 500;
+    }
+    .camtitle{
+        font-size: 1rem;
+        color: white;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 1px solid cyan;
+        padding-bottom: 0.7rem;
+    }
+    .camdiscription{
+        color:white;
+        margin-bottom: 15px;
+        overflow:hidden !important;
+        border-bottom: 1px solid cyan;
+        padding-bottom: 1rem;
+
+    }
+    .taraised{
+        display: flex;
+    }
+    .child{
+        font-weight: 400;
+        margin-right: 2rem; 
+    }
+    .taraised + .child{
+        margin-right: 0 !important;
+    }
+    
+    @media only screen and (max-width:600px) {
+        .allcard {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: 1rem;
+        }
+        
+    }

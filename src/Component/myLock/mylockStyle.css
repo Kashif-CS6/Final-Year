@@ -1,0 +1,44 @@
+.inner-container-history{
+    width: 100%;
+    margin-top: 3rem;
+}
+.table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+th{
+    color: white !important;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .inner-container-history{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+        >.table{
+            font-size: 0.8rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .unlockBTN{
+        font-size: 0.8rem;
+        width: 4rem;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    tbody{
+        font:0.8rem;
+    }
+}
